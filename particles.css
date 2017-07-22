@@ -1,0 +1,50 @@
+html, body, canvas {
+    font-family: sans-serif;
+    background: black;
+    color: #249eff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#display { cursor: none }
+h1 { font-size: 30px }
+.description {
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+    font-size: 14px;
+}
+a:link, a:visited { color: #8acaff }
+.sidenav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(16,16,16,0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav p, .sidenav h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #818181;
+    width: 345px;
+}
+.btn {
+    position: absolute;
+    top: 0;
+    transition: 0.3s;
+    color: #818181;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 24px;
+    padding: 10px;
+}
+.btn:hover, .btn:focus { color: #f1f1f1 }
+.btn-open {
+    background: rgba(16,16,16,0.8);
+    left: 0;
+}
+.btn-close { right: 0 }
